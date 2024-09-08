@@ -1,0 +1,117 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 20px;
+    padding:0;
+    color:black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.411), black) ,url("https://eaglines.com/wp-content/uploads/2024/02/3D-illustrated-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0 8px 5px rgb(0, 0, 0);
+}
+form{
+    max-width: 600px;
+    margin:auto;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 0 8px white;
+    padding:10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+fieldset{
+    border: 4px double white;
+    background-color: rgba(250, 235, 215, 0.507);
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+legend{
+    font-weight: 500;
+    text-shadow: 0 8px 5px rgb(0, 0, 0);
+    text-align: left;
+    background-image: linear-gradient(black, rgb(80, 80, 80),black);
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    box-shadow: 2px 2px 5px white ;
+}
+label{
+    display: block;
+    text-align: start;
+    color: white;
+    padding: 5px;
+    text-shadow: 0 1px 5px black;
+}
+input ,textarea{
+    padding: 12px;
+    margin-top: 2px;
+    border: 4px double white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+
+}
+.nametag{
+    color: white;
+            font-size: 40px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+    text-shadow: 2px 0 5px red;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-image: radial-gradient(rgb(85, 0, 0) ,red);
+    color:antiquewhite;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+
+}
+button:hover{
+    background-image: radial-gradient(rgb(61, 0, 0) ,rgb(231, 0, 0));
+    color: white;
+    box-shadow: 0 2px 5px white;
+    text-shadow: 0 2px 5px white;
+
+}
+#resumeOutput{
+    background-color: black;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 8px white;
+    max-width: 600px;   
+    border: 4px double;
+    border-color: white;
+}
+
+#resumeOutput h2{
+    color: white;
+    text-shadow: 0 2px 4px rgb(143, 0, 0);
+}
+
+#resumeOutput div{
+    color: red;
+    text-shadow: 2px 2px 5px white;
+}
+

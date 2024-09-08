@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Static Resume Builder By <br><span class="nametag">Abdullah Shahid</span></h1>
+    <form id="resume">
+        <fieldset>
+            
+            <legend>Personal Information</legend>
+            <label for="username" >CV URL:</label>
+           <input type="text" id="username" name="username" required><br> <br>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br> <br>
+
+            <label for="phone">Phone No:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </fieldset>
+
+<fieldset>
+    <legend>Education Criteria</legend>
+    <label for="education">Your Qualification</label>
+    <textarea id="education" name="education" rows="4" required></textarea><br>
+
+</fieldset>      
+
+<fieldset>
+    <legend>Any Experience</legend>
+    <label for="Experience">Fill with Experience</label>
+    <textarea id="experience" name="experience" rows="4" required></textarea><br>
+    
+</fieldset>  
+
+<fieldset>  
+    <legend>Skills</legend>
+    <label for="skills"> Skills</label>
+    <textarea id="skills" name="skills" rows="4" required></textarea><br>
+    
+</fieldset>  
+<button type="submit">Submit Form</button> 
+
+
+
+
+    </form>
+    <div id="resumeOutput">
+        <!--Resume will be generated here-->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
